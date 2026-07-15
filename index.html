@@ -47,7 +47,7 @@ button:disabled{opacity:.5;pointer-events:none}
 .tab.active{color:var(--accent)}
 .tab.active::after{content:'';position:absolute;top:0;left:18%;right:18%;height:2px;background:var(--accent);border-radius:0 0 2px 2px}
 .tab .ico{font-size:1.2rem;display:block;margin-bottom:1px}
-.mode-view{display:none;width:100%;max-width:480px}
+.mode-view{display:none;width:100%;max-width:480px;padding-bottom:130px}
 .mode-view.active{display:flex;flex-direction:column;align-items:center;gap:8px}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
 .rec-dot{width:9px;height:9px;border-radius:50%;background:var(--red);display:inline-block;animation:pulse 1s infinite}
@@ -323,7 +323,6 @@ button:disabled{opacity:.5;pointer-events:none}
         <button class="success" onclick="showRhythmAnswer()">📖 显示答案</button>
       </div>
       <div class="rhythm-answer" id="rhythmAnswer" style="display:none"></div>
-      <div style="height:120px"></div>
     </div>
   </div>
 
